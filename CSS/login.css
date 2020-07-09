@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #58b19f;
+}
+.btn2 {
+  border-radius: 5px;
+  font-size: 30px;
+  color: black;
+  background-color: #fec107;
+  padding: 8px 10px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 60px;
+  max-width: 200px;
+  float: left;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.btn2:hover {
+  background-color: white;
+  border: 1px solid #fec107;
+  color: #fec107;
+  cursor: pointer;
+}
+.container2 {
+  /* display: none; */
+  background-color: white;
+  color: #000000;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  padding: 20px;
+  box-shadow: 5px 5px 10px 5px gray;
+  position: relative;
+  z-index: 2;
+}
+.container2 .title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #fec107;
+  text-align: center;
+  text-shadow: 1px #888888;
+}
+.container2 .form {
+  width: 100%;
+}
+.container2 .form .input {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: right;
+  height: 45px;
+}
+.container2 .form .input label {
+  margin-top: 15px;
+  font-weight: bold;
+  width: 300px;
+  color: #000000;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.container2 .form .input .box {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 20px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-weight: bold; */
+}
+.container2 .form .input option {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.container2 .form .box:focus,
+.container2 .form .input select:focus {
+  border: solid 2px #fec107;
+}
+.container2 .form .input .box .pass {
+  font-size: 50px;
+}
+
+/* Button Signin */
+.boton-2 {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fec107;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.boton-2 span {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.boton-2 svg line {
+  stroke-width: 3;
+  stroke: #fec107;
+  fill: none;
+
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.boton-2:hover svg line {
+  stroke: #fec107;
+}
+
+.boton-2:hover svg line.L-T {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.boton-2:hover svg line.L-B {
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+.boton-2:hover svg line.R-T {
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.boton-2:hover svg line.R-B {
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+.boton-2:hover svg line.T-L {
+  -webkit-transform: translateX(270px);
+  transform: translateX(270px);
+}
+.boton-2:hover svg line.T-R {
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+}
+.boton-2:hover svg line.B-L {
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+.boton-2:hover svg line.B-R {
+  -webkit-transform: translateX(-270px);
+  transform: translateX(-270px);
+}
+
+/* The off Button */
+.container2 .off {
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  transform: rotate(45deg);
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.off:hover,
+.off:focus {
+  color: #666666;
+  text-decoration: none;
+  cursor: pointer;
+}
+.forgetPassword{
+  text-decoration: none;
+  color: black;
+  float: right;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.forgetPassword:hover{
+color: #fec107;
+}

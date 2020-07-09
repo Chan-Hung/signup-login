@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #58b19f;
+}
+.btn1 {
+  border-radius: 5px;
+  font-size: 30px;
+  color: black;
+  background-color: #fec107;
+  padding: 8px 10px;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 60px;
+  max-width: 200px;
+  float: left;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.btn1:hover {
+  background-color: white;
+  border: 1px solid #fec107;
+  color: #fec107;
+  cursor: pointer;
+}
+.container {
+  /* display: none; */
+  background-color: white;
+  color: #000000;
+  border-radius: 5px;
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  padding: 20px;
+  box-shadow: 5px 5px 10px 5px gray;
+  position: relative;
+  z-index: 2;
+}
+.container .title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #fec107;
+  text-align: center;
+  text-shadow: 1px #888888;
+}
+.container .form {
+  width: 100%;
+}
+.container .form .input {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: right;
+  height: 45px;
+}
+.container .form .input label {
+  margin-top: 15px;
+  font-weight: bold;
+  width: 300px;
+  color: #000000;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.container .form .input .box {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 20px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-weight: bold; */
+}
+.container .form .input option {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.container .form .input textarea {
+  resize: none;
+  height: 125px;
+}
+/*Create space below Address textarea*/
+.space {
+  margin-top: 100px;
+}
+.container .form .input .select {
+  border: 1px solid #d5dbd9;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .form .box:focus,
+.container .form .textarea:focus,
+.container .form .input select:focus {
+  border: solid 2px #fec107;
+}
+.container .form .input .box .pass {
+  font-size: 50px;
+}
+
+/* Button Signin Deleted */
+
+/* .container .form .input .button {
+  text-decoration: none;
+  color: #fec107;
+  border-radius: 2px;
+  background-color: white;
+  border: 3px solid #fec107;
+  width: 100%;
+  padding: 8px 10px;
+  font-weight: bolder;
+  font-size: 22px;
+  /* box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.24), 0 8px 10px 0 rgba(0, 0, 0, 0.19); */
+/* 
+}
+.container .form .input:last-child {
+  margin-bottom: 0;
+}
+.container .form .input  .button:hover {
+   box-shadow: 3px 3px 3px 3px gray;
+   background-color: rgba(255,255,255,0.1);
+  border: 1px solid #fec107;
+  color: #fec107;
+  cursor: pointer;
+} */
+
+/* Button Signin */
+.boton-2 {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fec107;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.boton-2 span {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.boton-2 svg line {
+  stroke-width: 3;
+  stroke: #fec107;
+  fill: none;
+
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.boton-2:hover svg line {
+  stroke: #fec107;
+}
+
+.boton-2:hover svg line.L-T {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.boton-2:hover svg line.L-B {
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+}
+.boton-2:hover svg line.R-T {
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.boton-2:hover svg line.R-B {
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+.boton-2:hover svg line.T-L {
+  -webkit-transform: translateX(270px);
+  transform: translateX(270px);
+}
+.boton-2:hover svg line.T-R {
+  -webkit-transform: translateX(20px);
+  transform: translateX(20px);
+}
+.boton-2:hover svg line.B-L {
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+.boton-2:hover svg line.B-R {
+  -webkit-transform: translateX(-270px);
+  transform: translateX(-270px);
+}
+
+/* The Close Button */
+.container .close {
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  transform: rotate(45deg);
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #666666;
+  text-decoration: none;
+  cursor: pointer;
+}
